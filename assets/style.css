@@ -70,6 +70,8 @@ img { display: block; max-width: 100%; height: auto; }
   text-underline-offset: 0.28em;
   text-decoration-color: var(--faint);
   transition: text-decoration-color .2s, color .2s;
+  /* larger touch target without moving the text */
+  padding-block: 10px; margin-block: -10px;
 }
 .link:hover { text-decoration-color: currentColor; color: var(--accent); }
 
@@ -90,7 +92,7 @@ img { display: block; max-width: 100%; height: auto; }
 .nav-name { font-weight: 700; letter-spacing: -0.02em; text-decoration: none; opacity: 0; transition: opacity .3s; }
 .nav.is-solid .nav-name { opacity: 1; }
 .nav nav { display: flex; gap: clamp(16px, 2.6vw, 32px); }
-.nav nav a { text-decoration: none; color: var(--sub); transition: color .2s; }
+.nav nav a { text-decoration: none; color: var(--sub); transition: color .2s; padding: 12px 8px; margin: -12px -8px; }
 .nav nav a:hover { color: var(--ink); }
 .nav.is-dark nav a { color: var(--d-sub); }
 .nav.is-dark nav a:hover { color: var(--d-ink); }

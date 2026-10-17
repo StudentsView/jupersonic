@@ -9,7 +9,7 @@
   const heroInner = $('#heroInner');
   const word = $('#word');
   const partJ = $('#partJ');
-  const runner = $('#runner');
+  const runner = $('#altrosetta');
 
   /* Hero: measure S and J so the slot can change width as the letter rolls,
      then size the whole word to fill the column. */
@@ -64,7 +64,7 @@
     shots.forEach((s, k) => s.classList.toggle('is-active', k === i));
   };
 
-  /* Runner: translate one line at a time */
+  /* AltRosetta: translate one line at a time */
   const xlate = $('#xlate');
   const codeX = [...document.querySelectorAll('#codeX li')];
   const codeA = [...document.querySelectorAll('#codeA li')];

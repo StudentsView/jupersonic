@@ -2,186 +2,226 @@
 <html lang="ko">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>Jupersonic</title>
-  <meta name="description" content="Jupersonic은 18세 개발자 Julio가 앞으로의 프로젝트에 사용할 이름입니다. iOS, macOS, Web을 만들고, 지금은 Apple 실리콘 Mac을 위한 x86 to ARM Runner를 개발하고 있습니다.">
+  <meta name="description" content="Jupersonic은 18세 학생 개발자 Julio가 앞으로 만들 것들에 붙일 이름입니다. 수험생 앱 Fromise, 대수능.com, 팬 사이트를 만들었고 지금은 M 칩 Mac을 위한 x86 to ARM Runner를 개발하고 있습니다.">
   <meta property="og:title" content="Jupersonic">
-  <meta property="og:description" content="Julio가 성장하고 싶은 속도로 만드는 것들.">
+  <meta property="og:description" content="Julio와 Supersonic을 합친 이름. Julio가 만든 것과 만들고 있는 것.">
   <meta property="og:type" content="website">
-  <meta name="theme-color" content="#EAF0F5" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="#0B1322" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#FFFFFF" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0D0F13" media="(prefers-color-scheme: dark)">
   <link rel="icon" href="data:,">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@50..150,200..900&display=swap">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
   <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <a class="skip" href="#main">본문으로 건너뛰기</a>
+  <a class="skip" href="#about">본문으로 건너뛰기</a>
 
-  <header class="bar">
-    <span class="bar-name">Jupersonic</span>
+  <header class="nav" id="nav">
+    <a class="nav-name" href="#top">Jupersonic</a>
     <nav aria-label="섹션">
       <a href="#about">소개</a>
-      <a href="#work">만든 것</a>
-      <a href="#runner">진행 중</a>
-      <a href="#vision">비전</a>
+      <a href="#study">공부</a>
+      <a href="#fans">팬</a>
+      <a href="#runner">Runner</a>
     </nav>
   </header>
 
-  <main id="main">
-    <section class="hero" aria-label="Jupersonic">
-      <div class="hero-pin">
-        <h1 class="hero-word" id="heroWord">Jupersonic</h1>
-        <div class="hero-foot">
-          <p class="hero-lede">Julio가 성장하고 싶은 속도로<br>만들어 가는 것들의 이름.</p>
-          <p class="mach" aria-hidden="true"><span class="mach-label">Mach</span> <span id="machValue">0.00</span></p>
-        </div>
-        <div class="speedline" aria-hidden="true"><span id="speedFill"></span></div>
-      </div>
-    </section>
-
-    <section class="origin" id="origin" aria-labelledby="originTitle">
-      <div class="wrap">
-        <h2 class="section-title" id="originTitle">이름에 대하여</h2>
-        <div class="equation" id="equation" aria-hidden="true">
-          <p class="eq-row"><span class="keep">Ju</span><span class="drop">lio</span></p>
-          <p class="eq-row"><span class="drop">Su</span><span class="keep">personic</span></p>
-          <p class="eq-row eq-result"><span class="keep">Ju</span><span class="keep">personic</span></p>
-        </div>
-        <p class="sr-only">Julio의 Ju와 Supersonic의 personic을 합쳐 Jupersonic.</p>
-        <div class="origin-copy">
-          <p>Supersonic은 제가 가장 좋아하는 곡이고, 제가 성장하고 싶은 속도이기도 합니다. 제 이름 Julio와 이 단어를 겹쳐 Jupersonic을 만들었습니다.</p>
-          <p>아직 사업자 등록 전이지만, 앞으로 만드는 모든 프로젝트는 이 이름 아래에 모입니다.</p>
-          <p><a class="link" href="https://open.spotify.com/track/6oNLSQX8bcAdbCElZYju3v" target="_blank" rel="noopener">Spotify에서 Supersonic 듣기</a></p>
+  <main>
+    <section class="hero" id="top">
+      <div class="hero-inner" id="heroInner">
+        <h1 class="word" aria-label="Jupersonic">
+          <span class="word-inner" id="word" aria-hidden="true">
+            <span class="part part-j" id="partJ">
+              <span class="clip"><span class="roll"><span class="glyph s">S</span><span class="glyph j">J</span></span></span>
+              <span class="note"><span class="bracket"></span><span class="note-text">Julio</span></span>
+            </span>
+            <span class="part part-rest">upersonic<span class="note"><span class="bracket"></span><span class="note-text">Supersonic</span></span></span>
+          </span>
+        </h1>
+        <div class="hero-desc">
+          <p>제 이름 Julio와, 가장 좋아하는 곡이자 제가 자라고 싶은 속도인 Supersonic을 합쳤습니다. 앞으로 만드는 것들은 모두 이 이름으로 내놓으려 합니다.</p>
+          <a class="link" href="https://open.spotify.com/track/6oNLSQX8bcAdbCElZYju3v" target="_blank" rel="noopener">Spotify에서 Supersonic 듣기</a>
         </div>
       </div>
     </section>
 
-    <section class="about" id="about" aria-labelledby="aboutTitle">
-      <div class="wrap grid">
-        <h2 class="section-title" id="aboutTitle">Julio</h2>
-        <div class="about-body">
-          <p class="about-lede">학교를 다니며 iOS, macOS, 웹을 오가고, 직접 쓰고 싶은 것을 만듭니다. 팬 커뮤니티부터 수험생 도구까지, 쓰는 사람이 분명한 소프트웨어를 좋아합니다.</p>
-          <dl class="facts">
+    <div class="sheet">
+      <section class="intro" id="about" aria-label="소개">
+        <div class="wrap">
+          <p class="reveal" id="reveal">안녕하세요, Julio입니다. 열여덟 살 학생이고 iOS, macOS, 웹에서 쓰는 앱을 만듭니다. 수능을 준비하면서 필요했던 도구를 직접 만들었고, 좋아하는 아티스트의 팬들이 모일 사이트를 만들었습니다. 지금은 Intel 앱을 M 칩 Mac에서 돌리는 방법을 붙잡고 있습니다.</p>
+          <dl class="profile">
             <div><dt>이름</dt><dd>Julio</dd></div>
             <div><dt>나이</dt><dd>18세</dd></div>
             <div><dt>지금</dt><dd>학생</dd></div>
             <div><dt>만드는 것</dt><dd>iOS, macOS, Web</dd></div>
+            <div><dt>GitHub</dt><dd><a class="link" href="https://github.com/StudentsView" target="_blank" rel="noopener">StudentsView</a></dd></div>
           </dl>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="work" id="work" aria-labelledby="workTitle">
-      <div class="wrap">
-        <h2 class="section-title" id="workTitle">지금까지 만든 것</h2>
-        <ul class="work-list">
-          <li class="work-item">
-            <a href="https://fromis9.com" target="_blank" rel="noopener">
-              <span class="work-name">fromis9.com</span>
-              <span class="work-desc">프로미스나인 비공식 팬클럽이 모여 소통하는 사이트</span>
-              <span class="work-kind">Web</span>
-            </a>
-          </li>
-          <li class="work-item">
-            <a href="https://asnd.fromise.com" target="_blank" rel="noopener">
-              <span class="work-name">asnd.fromise.com</span>
-              <span class="work-desc">어센드엔터테인먼트 팬 사이트</span>
-              <span class="work-kind">Web</span>
-            </a>
-          </li>
-          <li class="work-item">
-            <a href="https://xn--9h1btg272b.com" target="_blank" rel="noopener">
-              <span class="work-name">대수능.com</span>
-              <span class="work-desc">수능 타종과 스터디 플래너를 한곳에서</span>
-              <span class="work-kind">Web</span>
-            </a>
-          </li>
-          <li class="work-item">
-            <a href="https://apps.apple.com/kr/app/id6782740086" target="_blank" rel="noopener">
-              <span class="work-name">Fromise</span>
-              <span class="work-desc">App Store에 출시한 iOS 앱</span>
-              <span class="work-kind">iOS</span>
-            </a>
-          </li>
-          <li class="work-item">
-            <a href="https://github.com/StudentsView" target="_blank" rel="noopener">
-              <span class="work-name">StudentsView</span>
-              <span class="work-desc">GitHub에 남기는 코드와 실험들</span>
-              <span class="work-kind">GitHub</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
+      <section class="group" id="study" aria-labelledby="studyTitle">
+        <div class="wrap">
+          <header class="group-head">
+            <p class="group-name">공부</p>
+            <h2 class="group-title" id="studyTitle">수험생에게 필요했던 걸<br>수험생이 직접 만들었습니다.</h2>
+          </header>
 
-    <section class="runner" id="runner" aria-labelledby="runnerTitle">
-      <div class="wrap">
-        <p class="status"><span class="pulse" aria-hidden="true"></span>개발 중</p>
-        <h2 class="runner-title" id="runnerTitle">x86 to ARM Runner</h2>
-        <p class="runner-lede">macOS 28을 위한 실행 도구. Intel 기반으로 만들어진 Windows와 macOS 앱을 M 칩 Mac에서도 그대로 실행할 수 있게 합니다.</p>
+          <div class="fromise">
+            <div class="fromise-text">
+              <div class="app-id">
+                <img class="app-icon" src="assets/fromise/icon.png" width="128" height="128" alt="">
+                <div>
+                  <h3 class="app-name">Fromise</h3>
+                  <p class="app-sub">수능을 위한 약속<br>2026년 6월 App Store 출시</p>
+                  <a class="link" href="https://apps.apple.com/kr/app/id6782740086" target="_blank" rel="noopener">App Store에서 보기</a>
+                </div>
+              </div>
+              <ul class="features" id="features">
+                <li class="feature is-active" data-shot="0">
+                  <h4>오늘 할 일과 남은 날</h4>
+                  <p>대수능.com과 연동되는 스터디 플래너가 첫 화면에 있습니다. 오늘 계획을 얼마나 해냈는지, 수능까지 며칠 남았는지 바로 보입니다.</p>
+                </li>
+                <li class="feature" data-shot="1">
+                  <h4>2G폰 모드</h4>
+                  <p>정해 둔 앱과 사이트 말고는 열리지 않게 잠급니다. 중간에 풀수록 다음 해제가 점점 느려집니다.</p>
+                </li>
+                <li class="feature" data-shot="2">
+                  <h4>모의 수능 타종</h4>
+                  <p>실제 수능 시간표와 방송을 그대로 재현합니다. 영어 듣기평가 음원도 골라서 틀 수 있습니다.</p>
+                </li>
+                <li class="feature" data-shot="3">
+                  <h4>엎어 둬야 쌓이는 공부 시간</h4>
+                  <p>휴대폰 화면을 바닥으로 엎어야 시간이 기록됩니다. 들어 올리거나 앱을 나가면 그 자리에서 멈춥니다.</p>
+                </li>
+              </ul>
+            </div>
+            <div class="fromise-stage">
+              <div class="stage" id="stage">
+                <img class="shot is-active" src="assets/fromise/home.jpg" width="760" height="1033" alt="Fromise 홈 화면. 수능 D-day와 오늘의 계획" loading="lazy">
+                <img class="shot" src="assets/fromise/lock.jpg" width="760" height="1033" alt="Fromise 2G폰 모드 화면" loading="lazy">
+                <img class="shot" src="assets/fromise/bell.jpg" width="760" height="1033" alt="Fromise 모의 수능 타종 화면" loading="lazy">
+                <img class="shot" src="assets/fromise/record.jpg" width="760" height="1033" alt="Fromise 학습 기록 화면" loading="lazy">
+              </div>
+            </div>
+          </div>
 
-        <div class="flow" id="flow">
-          <div class="flow-track" aria-hidden="true"><span id="flowFill"></span></div>
-          <ol class="flow-steps">
-            <li class="flow-step">
-              <h3>x86_64 앱</h3>
-              <p>Intel Mac과 Windows PC를 위해 빌드된 프로그램</p>
+          <ul class="projects">
+            <li>
+              <a class="project" href="https://xn--9h1btg272b.com" target="_blank" rel="noopener">
+                <div class="project-main">
+                  <h3>대수능.com</h3>
+                  <p>Fromise와 연동되는 웹 서비스입니다. 예비령부터 종료령까지 수능 시간표대로 울리는 모의 타종, 시간에 맞춰 재생되는 듣기평가, 온라인 스터디 플래너와 학습 기록이 있습니다.</p>
+                </div>
+                <span class="project-kind">Web</span>
+                <span class="project-open">사이트 열기</span>
+              </a>
             </li>
-            <li class="flow-step">
-              <h3>Runner</h3>
-              <p>x86 명령어를 ARM 명령어로 옮기고, 앱이 기대하는 실행 환경을 맞춰 줍니다</p>
+          </ul>
+        </div>
+      </section>
+
+      <section class="group" id="fans" aria-labelledby="fansTitle">
+        <div class="wrap">
+          <header class="group-head">
+            <p class="group-name">팬</p>
+            <h2 class="group-title" id="fansTitle">좋아하는 아티스트의<br>팬들이 모일 곳을 만듭니다.</h2>
+          </header>
+          <ul class="projects">
+            <li>
+              <div class="project">
+                <div class="project-main">
+                  <h3>fromis_9 Fanclub</h3>
+                  <p>프로미스나인 비공식 팬클럽이 소통하는 사이트입니다. 팬들이 함께 즐기는 fromis_9 타자 게임도 들어 있습니다.</p>
+                </div>
+                <span class="project-kind">Web</span>
+                <span class="project-open is-muted">fromis9.com</span>
+              </div>
             </li>
-            <li class="flow-step">
-              <h3>arm64 실행</h3>
-              <p>Apple 실리콘 Mac에서 네이티브처럼 동작</p>
+            <li>
+              <a class="project" href="https://asnd.fromise.com" target="_blank" rel="noopener">
+                <div class="project-main">
+                  <h3>ASND Entertainment 팬 페이지</h3>
+                  <p>어센드엔터테인먼트 소속 프로미스나인과 웬디의 아티스트 정보, 음반, 소식을 한곳에 정리했습니다.</p>
+                </div>
+                <span class="project-kind">Web</span>
+                <span class="project-open">사이트 열기</span>
+              </a>
             </li>
-          </ol>
+          </ul>
         </div>
+      </section>
 
-        <div class="runner-why">
-          <h3>왜 지금인가</h3>
-          <p>Apple은 Rosetta 2의 범용 지원을 점차 줄여 가고 있습니다. 그 뒤에도 오래된 Intel 앱에 기대는 사람들은 남습니다. 학교와 회사에서 아직 쓰이는 프로그램, 다시 빌드되지 않을 프로그램들이 새 Mac에서도 계속 열리도록 하는 것이 목표입니다.</p>
+      <section class="group runner" id="runner" aria-labelledby="runnerTitle">
+        <div class="wrap">
+          <header class="group-head">
+            <p class="group-name">플랫폼</p>
+            <h2 class="group-title" id="runnerTitle">칩이 바뀌어도<br>쓰던 앱은 계속 열려야 합니다.</h2>
+          </header>
+
+          <div class="runner-body">
+            <div class="runner-id">
+              <p class="status"><span class="dot" aria-hidden="true"></span>개발 중</p>
+              <h3 class="runner-name">x86 to ARM Runner</h3>
+              <p class="runner-sub">macOS 28을 위한 실행 도구</p>
+              <p class="runner-desc">Intel 기반으로 만들어진 Windows와 macOS 앱을 M 칩 Mac에서 실행합니다.</p>
+            </div>
+
+            <figure class="xlate" id="xlate">
+              <div class="panes">
+                <div class="pane">
+                  <p class="pane-title">x86_64</p>
+                  <ol class="code" id="codeX">
+                    <li>push   rbp</li>
+                    <li>mov    rbp, rsp</li>
+                    <li>mov    eax, dword ptr [rbp - 4]</li>
+                    <li>add    eax, 1</li>
+                    <li>pop    rbp</li>
+                    <li>ret</li>
+                  </ol>
+                </div>
+                <div class="pane">
+                  <p class="pane-title">arm64</p>
+                  <ol class="code" id="codeA">
+                    <li>stp    x29, x30, [sp, #-16]!</li>
+                    <li>mov    x29, sp</li>
+                    <li>ldur   w0, [x29, #-4]</li>
+                    <li>add    w0, w0, #1</li>
+                    <li>ldp    x29, x30, [sp], #16</li>
+                    <li>ret</li>
+                  </ol>
+                </div>
+              </div>
+              <figcaption>Runner가 하는 일을 아주 작게 줄이면 이렇습니다. 같은 동작을 하는 Intel 명령어를 ARM 명령어로 옮깁니다.</figcaption>
+            </figure>
+
+            <div class="runner-why">
+              <h4>왜 macOS 28인가</h4>
+              <p>Apple은 macOS 27까지만 Rosetta 2를 온전히 지원하고, 그 뒤로는 오래된 게임을 위한 일부 기능만 남기겠다고 밝혔습니다. macOS 28부터는 Intel 전용 앱이 열리지 않을 수 있습니다. Runner는 그런 앱들과 Intel 기반 Windows 앱까지, M 칩 Mac에서 계속 쓸 수 있게 하려는 프로젝트입니다.</p>
+            </div>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="vision" id="vision" aria-labelledby="visionTitle">
-      <div class="wrap">
-        <h2 class="section-title" id="visionTitle">Jupersonic이 하려는 일</h2>
-        <div class="vision-list">
-          <article class="vision-item">
-            <h3>좋아하는 마음이 모이는 곳을 만듭니다.</h3>
-            <p>팬들이 서로를 찾고 이야기를 나누는 공간. fromis9.com과 Fromise에서 시작한 일을 더 많은 팬덤으로 넓혀 갑니다.</p>
-          </article>
-          <article class="vision-item">
-            <h3>하루의 무게를 덜어 주는 도구를 만듭니다.</h3>
-            <p>수험생으로서 직접 필요했던 것을 만듭니다. 시험장의 타종부터 매일의 계획까지, 공부 외의 일에 쓰는 시간을 줄입니다.</p>
-          </article>
-          <article class="vision-item">
-            <h3>플랫폼의 경계를 지웁니다.</h3>
-            <p>칩이 바뀌어도, 운영체제가 바뀌어도 쓰던 소프트웨어는 계속 쓸 수 있어야 합니다. Runner는 그 첫 번째 시도입니다.</p>
-          </article>
+      <section class="letter" aria-label="Julio의 글">
+        <div class="wrap">
+          <div class="letter-body">
+            <p>아직 사업자 등록 전이라 회사라고 부르기엔 이릅니다. 그래서 이 페이지에는 거창한 계획 대신 지금까지 만든 것과 지금 만들고 있는 것을 적었습니다.</p>
+            <p>앞으로 만드는 것들은 모두 Jupersonic이라는 이름으로 내놓을 생각입니다. 이름을 지을 때 생각한 그 속도로 자라 보겠습니다.</p>
+            <p class="sign">Julio<span>2026년 10월</span></p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="closing" aria-label="맺음">
-      <div class="wrap">
-        <p class="closing-line" id="closingLine">회사는 아직 없지만,<br>속도는 이미 정했습니다.</p>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="wrap footer-inner">
-      <p>Jupersonic은 사업자 등록을 준비 중인 Julio의 프로젝트 이름입니다.</p>
-      <p><a class="link" href="https://github.com/StudentsView" target="_blank" rel="noopener">GitHub</a></p>
-      <p class="copy">&copy; 2026 Julio</p>
+      <footer class="footer">
+        <div class="wrap footer-inner">
+          <p>Jupersonic</p>
+          <p><a class="link" href="https://github.com/StudentsView" target="_blank" rel="noopener">GitHub</a></p>
+          <p class="copy">&copy; 2026 Julio</p>
+        </div>
+      </footer>
     </div>
-  </footer>
+  </main>
 
   <script src="assets/main.js"></script>
 </body>
